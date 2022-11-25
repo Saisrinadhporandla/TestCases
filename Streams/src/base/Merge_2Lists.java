@@ -11,5 +11,6 @@ public class Merge_2Lists {
 	a2.add("Srinadh");
 	Stream<String> tl=Stream.concat(a1.stream(),a2.stream());
 	tl.forEach(i->System.out.println(i));
+	System.out.println("srinadh ");
 	}
 }
